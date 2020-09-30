@@ -1,5 +1,4 @@
 # batch-silence
-### A batch silencer for mp4 files using ffmpeg
 
 ## ABOUT
 This is a simple python script which will remove the audio track from any number of input mp4 files. 
@@ -7,6 +6,7 @@ This is a simple python script which will remove the audio track from any number
 ## REQUIREMENTS
 Python 3 must be installed.
 A working build of FFMpeg must be placed in the same folder as silence.py, as should all input files, such that the directory structure is as follows:
+
     .
     +-- silence.py
 	+-- ffmpeg
