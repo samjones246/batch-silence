@@ -20,5 +20,6 @@ if __name__ == '__main__':
         for file in files:
             print("Silencing '%s'... (%i/%i)" % (file.name, ctr, num_files))
             silence(str(file))
+            ctr += 1
         print("Done.")
         input()
